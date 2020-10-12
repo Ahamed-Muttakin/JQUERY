@@ -1,0 +1,99 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: gray;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .logo{width: 200px;
+     color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+  .menu{width: 505px; 
+    float: left;
+    margin-top: 0px;
+    margin-left: 500px;
+    position: absolute;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+}
+.menu ul{list-style: none; margin: 0px; padding: 0px;}
+.menu ul li{display: block; padding: 15px; float: left; margin-top: 0px;
+  margin-left: 2px; margin-right: 2px;}
+.menu ul li:last-child{border-right: 0px solid white;}
+.menu ul li a{text-decoration: none;color: white;}
+.menu ul li a:hover{color:gray;}
+span{width: 100px; float: left;}
+.btn{float: left; position: relative;margin-left: 650px; margin-top: 15px; font-family: 'PT Sans Narrow', sans-serif;}
+.btn a{width: 150px;text-decoration: none; color: white; border: 1px solid white; border-radius: 13px; padding: 7px; }
+.btn a:hover{color: white; background-color: gray;}
+.icon{width: 100px;
+  position: relative;
+  float: right;
+  margin-right: 75px;
+  margin-top: 2px;
+
+}
+.icon table tr td{padding: 8px;}
+.icon table tr td img{height: 25px;}
+.mid{position: absolute;
+    margin-top: 215px;
+    margin-left: 670px;    
+}
+.midp{width: 500px; text-align: justify;font-family: 'PT Sans Narrow', sans-serif; margin-top: -15px;color: white;}
+.button{margin-top: 30px;}
+.button a{ padding: 15px; text-decoration: none; 
+  color: white; border: 1px solid white;
+  border-radius: 15px;width: 100px; text-align: center; }
+.button a:hover{color: white; background-color: gray;}
+.midp1{font-family: 'Permanent Marker', cursive;
+       font-size: 25px;
+}
+.bottom{position: absolute;margin-left: 40%; margin-top: 43%; color: white; }
+.pic{
+  margin-top: 17%;
+  margin-left: 32%;
+  position: absolute;
+}
+.pic img{height: 230px; border: 2px solid white; border-radius: 15px;}

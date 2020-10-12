@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            background: linear-gradient(cyan,darkblue);
+            overflow: hidden;
+            font-size: 100px;
+        }
+        @media screen and (max-width: 1200px) {
+            body{
+                background: red;
+                font-size: 80px;
+            }
+        }
+        @media screen and (max-width: 1000px) {
+            body{
+                background-color: White;
+                font-size: 60px;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            body{
+                background-color:orange;
+                color: red;
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS @Media Queries</h1>
+</body>
+</html>

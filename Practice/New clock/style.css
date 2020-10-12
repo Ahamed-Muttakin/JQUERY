@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(rgb(25, 209, 163),rgb(37, 163, 163));
+}
+.clock{
+    width: 600px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 15px solid black;
+    border-radius: 40px;
+    font-size: 90px;
+}
+.magic{
+    position: absolute;
+    background-color: black;
+    z-index: 11;
+    width: 15px;
+    height: 15px;
+    top: 10%;
+    left: 96%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    text-align: center;
+    font-size:13px ;
+    padding: 5px;
+    color: white;
+}
+.hour{
+    background-color: blue;
+    height: 120px;
+    width: 150px;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    float: left;
+    text-align: center;
+}
+.minit{
+    background-color: red;
+    height: 120px;
+    width: 150px;
+    top: 20%;
+    left: 38%;
+    position: absolute;
+    float: left;
+    text-align: center;
+}
+.second{
+    background-color: green;
+    height: 120px;
+    width: 150px;
+    top: 20%;
+    right: 5%;
+    position: absolute;
+    float: right;
+    text-align: center;
+}
+#time,#date,#alarm{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 8px;
+    top: 85%;
+}
+#alarm{
+    left: 44%;
+    position: absolute;
+}
+#date{
+    left: 57%;
+    position: absolute;
+}
+#time{
+    left: 30%;
+    position: absolute;
+}
+.stand{
+    height: 15px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 105%;
+    left: 10%;
+    border-radius: 10px;
+
+}
+.stand2{
+    height: 15px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 105%;
+    left: 75%;
+    border-radius: 10px;
+
+}
+#p1{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
+#p2{
+    position: absolute;
+    top: 20%;
+    left: 64%;
+}
